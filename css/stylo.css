@@ -48,7 +48,7 @@ header button{
     margin-bottom: 2em;
 }
 main{
-    height: 80vh;
+   
     flex-direction: column;
     justify-content: center;
 }
@@ -80,6 +80,16 @@ table, td{
     border-style: groove;
     background-color: rgb(74, 74, 240);
     color: azure;
+}
+.lista_musica{
+    height: 40vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 footer{
     height: 20vh;
